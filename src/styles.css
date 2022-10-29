@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.avater {
+  height: 120px;
+  border-radius: 50%;
+}
+
+.btn {
+  font-family: Bebas Neue;
+  font-weight: 0;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  padding: 5px 30px;
+  border: none;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+}
+
+.btn:hover {
+  transition: 1000ms;
+  transform: translateY(-6px);
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  color: #ffffff;
+  border: none;
+}
+
+.shaddow {
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
